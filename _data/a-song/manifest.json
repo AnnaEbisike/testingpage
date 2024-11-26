@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://AnnaEbisike.github.io/testingpage/a-song/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "A song" ] },
+    "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=8P5a8LctT8o&amp;list=RD8P5a8LctT8o&amp;start_radio=1",
+        "type": "Text",
+        "label": { "en": [ "A song" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "Youtube.com",
+        "type": "Agent",
+        "label": { "en": [ "Youtube" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://AnnaEbisike.github.io/testingpage/a-song/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 275.0,
+        "items": [
+          {
+            "id": "https://AnnaEbisike.github.io/testingpage/a-song/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://AnnaEbisike.github.io/testingpage/a-song/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.youtube.com/watch?v=8P5a8LctT8o&list=RD8P5a8LctT8o&start_radio=1",
+                    "duration": 275.0
+                },
+                "target": "https://AnnaEbisike.github.io/testingpage/a-song/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
